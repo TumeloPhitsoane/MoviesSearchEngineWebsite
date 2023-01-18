@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <title>Movies Engine</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/download.png" alt="logo"  width="95rem"
+                height="55rem"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="latest.html">Latest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                </ul>
+                <div class="form-group">
+                    <input style="display: inline; width: 40rem ;" type="text" name="keyword" id="keyword"
+                        aria-label="Search" class="form-control">
+                    <button class="btn btn-outline-success" id="search-btn">Search</button>
+                    </input>
+                </div>
+            </div>
+    </nav>
+
+    <div class="container">
+        <div class="row" id="movies-container">
+
+        </div>
+    </div>
+
+
+    <class class="movie-list">
+
+        <h3>Latest Movies</h3>
+        <div class="movie-img-container">
+            <img src="images/latest1.jpg" alt="l movie 1" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt4823776/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/latest2.jpg" alt="l movie 2" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt9419976/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/latest3.jpg" alt="l movie 3" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt5715066/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/latest4.jpg" alt="l movie 4" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt11457736/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/trend1.jpg" alt="t movie 1" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt9204164/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/trend2.jpg" alt="t movie 2" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt11362734/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/trend3.jpg" alt="t movie 3" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt10298432/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/trend4.jpg" alt="t movie 4" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt9866072/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/up1.jpg" alt="u movie 1" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt5433138/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/up2.jpg" alt="u movie 2" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt7126948/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/up3.jpg" alt="u movie 3" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt3480822/">View On IMDB</a>
+        </div>
+        <div class="movie-img-container">
+            <img src="images/up4.jpg" alt="u movie 4" />
+            <a class="spbutton" href="https://www.imdb.com/title/tt1877830/">View On IMDB</a>
+        </div>
+    </class>
+    </div>
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="p-2">
+
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Form -->
+                <section class="">
+                    <form action="">
+                        <!--Grid row-->
+                        <div class="row d-flex justify-content-center">
+                            <!--Grid column-->
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>Sign up for our newsletter</strong>
+                                </p>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-5 col-12">
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form5Example2" class="form-control" />
+                                    <label class="form-label" for="form5Example2">Email address</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-auto">
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-primary mb-4">
+                                    Subscribe
+                                </button>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                </section>
+                <!-- Section: Form -->
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright:
+                <a class="text-white" href="https://TumeloPhitsoane/">Tumelo Phitsoane</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
